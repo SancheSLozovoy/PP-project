@@ -1,0 +1,35 @@
+.main-container{
+    height: 300px;
+    width: 750px;
+    display: flex;
+    align-items: center;
+}
+
+.window{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.all-pages-container{
+    height: 100%;
+    display: flex;
+    transition:  translate;
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+.arrow{
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    color: #ECEBEC;
+    margin: 0px 15px;
+    transition: all 0.2s;
+}
+
+.arrow:hover{
+    transition: all 0.2s;
+    color: #F5F570;
+}

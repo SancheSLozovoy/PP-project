@@ -1,0 +1,99 @@
+.TeamsProfile {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    background-color: #241F20;
+    position: relative;
+    padding: 0px;
+    color: #F5F570;
+  }
+  
+  .TeamsProfile-info {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #F5F570, #f7d569, #f9b258);
+    min-width: 100%;
+  }
+  
+  .TeamsProfile-info__img-container {
+    width: 400px;
+    height: auto;
+    background-color: #ECEBEC;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  
+  .TeamsProfile-info__img {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+  }
+  
+  .TeamsProfile-info__h2 {
+    color: #241F20;
+    font-size: 52px;
+    margin: 0;
+  }
+  
+  .TeamsProfile-members {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .team-input {
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 1.2em;
+  }
+  
+  .edit-button, .save-button {
+    margin-left: 20px;
+    padding: 5px 10px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #241F20;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+  }
+  
+  .edit-button:hover,
+  .save-button:hover {
+    background-color: #F5F570;
+    color: #241F20;
+  }
+  
+  .image-input {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #241F20;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+  }
+  
+  .image-input:hover {
+    background-color: #F5F570;
+    color: #241F20;
+  }
+
+  .Team-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
