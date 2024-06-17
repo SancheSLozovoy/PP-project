@@ -1,0 +1,123 @@
+.Register {
+    font-family: Roboto;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #241F20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.Register-form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Register-form__textarea{
+    font-size: 18px;;
+    border-radius: 20px;
+    padding: 13px 0px;
+    padding-left: 13px;
+    width: 450px;
+    height: 60px;
+    margin-bottom: 50px;
+    border: none;
+    background-color: #ECEBEC;
+    resize: none;
+}
+
+
+
+.Register-form__input_file { font-size: 18px; border-radius: 20px; padding: 13px 0px; padding-left: 13px; width: 450px; height: 30px; margin-bottom: 50px; border: none; background-color: #ECEBEC; overflow: hidden; position: relative; }
+.Register-form__input_file:before { content: 'Выберите фото'; display: block; width: 100%; height: 100%; border-radius: 20px; padding: 13px 0px; padding-left: 13px; font-size: 18px; color: #241F20; background-color: #F5F570; position: absolute; top: 0; left: 0; pointer-events: none; text-align: center; line-height: 30px; /* equals to the height of the input */ }
+.Register-form__button{
+    margin-bottom: 50px;
+    background-color: #F5F570;
+    color: #241F20;
+    border: none;
+    border-radius: 15px;
+    height: 50px;
+    padding: 15px;
+    font-size: 18px;
+    width: 463px;
+    transition: all 0.3s;
+}
+
+.Register-form__button:hover{
+    transition: all 0.3s;
+    background-color: #d3d32d;
+}
+
+.Register-title{
+    font-size: 62px;
+    color: #ECEBEC;
+}
+
+.Register-form__label{
+    color: #F5F570;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.Register-form__input{
+    font-size: 18px;;
+    border-radius: 20px;
+    padding: 13px 0px;
+    padding-left: 13px;
+    width: 450px;
+    height: 30px;
+    margin-bottom: 50px;
+    border: none;
+    background-color: #ECEBEC;
+}
+
+.Register-form__input:focus{
+    border: 5px solid #F5F570;
+}
+
+.Register-acc{
+    display: flex;
+    flex-direction: row;
+}
+
+.Register-acc__p{
+    color: #ECEBEC;
+    font-weight: lighter;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.Register-acc__p_link{
+    color: #F5F570;
+    font-weight: lighter;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.Register-acc__link{
+    color: #F5F570;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.item-1{
+    background-color: aqua;
+}
+
+.item-2{
+    background-color: rgb(8, 58, 58);
+}
+
+.item-3{
+    background-color: rgb(24, 197, 32);
+}

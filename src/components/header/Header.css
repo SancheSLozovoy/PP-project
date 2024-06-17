@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #241F20;
+    padding: 20px 50px;
+    color: #ECEBEC;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .header-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header-nav {
+    display: flex;
+  }
+  
+  .header-link {
+    color: #ECEBEC;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s;
+  }
+  
+  .header-link:hover {
+    color: #F5F570;
+  }
+  

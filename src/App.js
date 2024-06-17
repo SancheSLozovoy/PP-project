@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Register from './pages/register/Register';
+import Enter from './pages/enter/Enter';
+import Main from './pages/main/Main';
+import TeamsProfile from './pages/teamsProfile/TeamsProfile';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path='/' Component={Register}/>
+        <Route path='/enter' Component={Enter}/>
+        <Route path='/main' Component={Main}/>
+        <Route path='/teamsprofile' Component={TeamsProfile}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;
