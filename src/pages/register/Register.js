@@ -3,7 +3,10 @@ import '../font.css';
 import {Link} from 'react-router-dom';
 import { MemberPopup } from '../../components/memberpopup/Memberpopup';
 import { useState } from 'react';
+<<<<<<< HEAD
 import 'axios';
+=======
+>>>>>>> 7a3754479d48999494b9485da6a032cf532a1fb3
 
 export default function Register() {
     const[modalInfoIsOpen, setModalInfoOpen] = useState(false);

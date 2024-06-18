@@ -28,8 +28,11 @@
     resize: none;
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 7a3754479d48999494b9485da6a032cf532a1fb3
 .Register-form__input_file { font-size: 18px; border-radius: 20px; padding: 13px 0px; padding-left: 13px; width: 450px; height: 30px; margin-bottom: 50px; border: none; background-color: #ECEBEC; overflow: hidden; position: relative; }
 .Register-form__input_file:before { content: 'Выберите фото'; display: block; width: 100%; height: 100%; border-radius: 20px; padding: 13px 0px; padding-left: 13px; font-size: 18px; color: #241F20; background-color: #F5F570; position: absolute; top: 0; left: 0; pointer-events: none; text-align: center; line-height: 30px; /* equals to the height of the input */ }
 .Register-form__button{
